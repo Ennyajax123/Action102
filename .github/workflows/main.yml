@@ -1,0 +1,8 @@
+name: funmi Git action
+run-name: funmi Git Action
+on: [push]
+jobs: 
+  simple_test_for_now:
+    runs-on: ubuntu-latest
+    steps:
+    - run: echo "hello everyone"
