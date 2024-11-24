@@ -8,3 +8,5 @@ jobs:
     - run: echo "hello everyone"
     run: pwd
     run: ls
+    run: pwd
+    run: ls
