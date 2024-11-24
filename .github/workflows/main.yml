@@ -5,6 +5,8 @@ jobs:
   simple_test_for_now:
     runs-on: ubuntu-latest
     steps:
+    - name: checkout_code_from_repo
+       uses: actions/checkout@v4
     - run: echo "hello everyone"
     run: pwd
     run: ls
