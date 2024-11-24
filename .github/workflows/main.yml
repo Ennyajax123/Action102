@@ -8,7 +8,4 @@ jobs:
     - name: checkout_code_from_repo
        uses: actions/checkout@v4
     - run: echo "hello everyone"
-    run: pwd
-    run: ls
-    run: pwd
-    run: ls
+    
