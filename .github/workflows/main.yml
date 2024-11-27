@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: checkout code from repo
-    - uses: actions/checkout@v4
+      uses: actions/checkout@v4
 
     - name: Set up mterraform to implement cloud infra"
       uses: hashicorp/setup-terraform@v2
