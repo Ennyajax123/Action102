@@ -7,7 +7,6 @@ jobs:
     steps:
     - name: checkout code from repo
     - uses: actions/checkout@v4
-    - run: echo "hello everyone"
 
     - name: Set up mterraform to implement cloud infra"
       uses: hashicorp/setup-terraform@v2
