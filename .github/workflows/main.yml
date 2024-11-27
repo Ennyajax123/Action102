@@ -6,14 +6,23 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: checkout code from repo
-       uses: actions/checkout@v4
-    - run: echo "hello everyone"
+      uses: actions/checkout@v4
 
+<<<<<<< HEAD
     - name: Set up terraform to implement cloud infra"
       uses: hashicorp/setup-terraform@v2
+=======
+    - name: Set up mterraform to implement cloud infra"
+    - uses: hashicorp/setup-terraform@v2
+>>>>>>> d12d2452bfe68862d24ba65f7250b7aef93f0bd8
       with: 
         terraform_version: 1.3.0
 
     - name: Terraform init
+<<<<<<< HEAD
       run: terraform init
       
+=======
+       run: terraform init
+      
+>>>>>>> d12d2452bfe68862d24ba65f7250b7aef93f0bd8
